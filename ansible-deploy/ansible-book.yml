@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Pull Docker image from Docker Hub
+      shell: docker pull pandeyaman103/spe-devops:latest
+
+    - name: Run Docker container
+      shell: docker run -d -p 8080:8080 pandeyaman103/spe-devops:latest

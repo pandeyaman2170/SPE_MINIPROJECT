@@ -1,0 +1,2 @@
+[localhost]
+aman ansible_connection=local
