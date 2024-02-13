@@ -5,4 +5,4 @@
       shell: docker pull pandeyaman103/spe-devops:latest
 
     - name: Run Docker container
-      shell: docker run -d -p 8080:8080 pandeyaman103/spe-devops:latest
+      shell: docker run -d -p 8081:8080 pandeyaman103/spe-devops:latest
